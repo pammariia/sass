@@ -1,0 +1,106 @@
+/*----------font family import-----------*/
+/*----------font family import-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');
+/*---------- css reset-----------*/
+/*---------- css reset-----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------- body-----------*/
+/*---------- body-----------*/
+body{
+    font-family: 'Lora',serif;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+/*---------- nav-----------*/
+/*---------- nav-----------*/
+#nav{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+}
+.tamaño-icon{
+   width: 42px;
+   height: 42px;
+   padding: 3px 3px;
+   margin-right: 5px;
+}
+#menu {
+	li {
+		a{
+			font-size: 18px;
+			font-weight: bold;
+			color: #3f3f3f;
+		}	
+	} 
+}
+/*---------- hero-----------*/
+/*---------- hero-----------*/
+@import "hero.scss";
+
+/*---------section-1-----------*/
+/*---------section-1-----------*/
+.card{
+	a{
+		text-decoration: none;
+		color: #000;
+		:hover{
+			transform: scale(.7);
+			animation-delay: 2.5s;
+			transition: .3s;
+		}
+	}
+} 
+/*---------- section-2-----------*/
+/*---------- section-2-----------*/
+.col{
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+} 
+/*---------form-----------*/
+/*---------form-----------*/
+textarea{
+    resize: none !important;
+}
+/*---------footer-----------*/
+/*---------footer-----------*/
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	.li{
+		text-decoration: none;
+		display: inline-block; 
+	}
+}
+
+/*---------btn whatsapp-----------*/
+.btn-whatsapp{
+    height: 50px;
+    width: 50px;
+    background-color:#00bb2d;
+    border: 2px solid #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 27px;
+    border-radius: 50%;
+    text-align: center;
+	i{
+		color: #fff;
+		font-size: 50px;
+		line-height: 50px;
+		font-weight: bold;
+		text-shadow: 0 0 10px #000;
+	}
+}
+
+
